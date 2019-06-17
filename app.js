@@ -16,19 +16,20 @@ const userSchema = new mongoose.Schema({
 
 const user = mongoose.model("userCollection", userSchema);
 
-//  db.on('error', console.error.bind(console, 'connection error:'));
-//  db.once('open', function () {
-//      console.log('db connected');
-//      const newUser = new user();
-//      newUser.name = "Ken Adams";
-//      newUser.role = "Student";
-//      newUser.age = 20;
-//      newUser.save((err, data) => { // stored to the database
-//         if (err) {
-//             return console.error(err);
-//         }
-//         console.log(`new user save: ${data}`);
-//     });
+// db.on("error", console.error.bind(console, "connection error:"));
+// db.once("open", function() {
+//   console.log("db connected");
+//   const newUser = new user();
+//   newUser.name = "Ken Adams";
+//   newUser.role = "Student";
+//   newUser.age = 20;
+//   newUser.save((err, data) => {
+//     // stored to the database
+//     if (err) {
+//       return console.error(err);
+//     }
+//     console.log(`new user save: ${data}`);
+//   });
 // });
 
 //Create -- new document
